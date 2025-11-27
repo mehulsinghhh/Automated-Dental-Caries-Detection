@@ -1,9 +1,8 @@
-# Automated-Dental-Caries-Detection
-🦷 Automated Dental Caries Detection (YOLOv5 + CNN + OpenCV)
+# Automated-Dental-Caries-Detection (YOLOv5 + CNN + OpenCV)
 
 This project focuses on automated detection of dental caries (tooth cavities) from dental X-ray images using Deep Learning. The aim is to assist dentists by providing a fast, reliable, and reproducible diagnostic support system.
 
-🚀 Project Overview
+Project Overview
 
 Dental caries detection from X-ray images is often challenging due to variations in lighting, overlapping structures, and subtle lesion visibility.
 This project uses a combination of:
@@ -20,7 +19,7 @@ Python + TensorFlow + PyTorch
 
 The system processes dental X-rays, identifies suspicious carious lesions, and highlights them with bounding boxes.
 
-🧠 Tech Stack
+Tech Stack
 
 Python
 
@@ -36,33 +35,17 @@ Random Forest Classifier (for feature-based classification)
 
 Matplotlib / Seaborn (visualization)
 
-⚙️ Features
+Features
 
-✔️ Preprocessing of dental X-ray images (denoising, contrast enhancement)
-✔️ Real-time caries detection using YOLOv5
-✔️ Hybrid pipeline: YOLOv5 + CNN + Random Forest
-✔️ Bounding box generation and visual highlight of caries
-✔️ Model evaluation (accuracy, precision, recall, F1-score)
-✔️ Easy-to-run training and inference scripts
+Preprocessing of dental X-ray images (denoising, contrast enhancement)
+Real-time caries detection using YOLOv5
+Hybrid pipeline: YOLOv5 + CNN + Random Forest
+Bounding box generation and visual highlight of caries
+Model evaluation (accuracy, precision, recall, F1-score)
+Easy-to-run training and inference scripts
 
-📂 Project Structure (Example)
-├── data/
-│   ├── images/
-│   └── labels/
-├── models/
-│   ├── yolo_model.pt
-│   └── cnn_model.h5
-├── src/
-│   ├── preprocess.py
-│   ├── detect_yolo.py
-│   ├── cnn_classifier.py
-│   ├── random_forest.py
-│   └── utils.py
-├── results/
-├── README.md
-└── requirements.txt
 
-🛠️ How It Works
+How It Works
 
 Image Preprocessing
 Enhances quality using histogram equalization, resizing, thresholding.
@@ -79,7 +62,7 @@ Helps in combining extracted features for improved classification reliability.
 Output
 The final result highlights caries on X-ray images with bounding boxes.
 
-📊 Results (Example)
+Results (Example)
 
 YOLOv5 Detection Accuracy: ~90%
 
